@@ -1,0 +1,45 @@
+/*
+    Document   : style
+    Created on : Sep 10, 2012, 4:32:22 PM
+    Author     : maltesh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#filelist {
+    margin-top: 15px;
+}
+
+#uploadFilesButtonContainer, #selectFilesButtonContainer, #overallProgress {
+    display: inline-block;
+}
+
+#overallProgress {
+    float: right;
+}
+
+.yellowBackground {
+    background: #F2E699;
+}
+
+.serverdata {
+    font-size: 0.8em;
+}
+
+.example{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #AFAFAF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.58);
+    margin:7px;
+    border-radius: 4px 4px 4px 4px;
+    padding: 2em;
+}
+
+td {
+    background: none repeat scroll 0 0 #E6E9F5;
+}
+td, th {
+    border: 1px solid #FFFFFF;
+    padding: 5px 12px;
+    vertical-align: top;
+}
